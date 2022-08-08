@@ -32,7 +32,7 @@ import { CourseInfoComponent } from './courses/course-info.component';
         path: '', redirectTo: 'courses', pathMatch: 'full'
       },
       {
-        path: 'course/info/:id', component: CourseInfoComponent
+        path: 'courses/info/:id', component: CourseInfoComponent
       },
       {
         path: '**', component: Error404Component
