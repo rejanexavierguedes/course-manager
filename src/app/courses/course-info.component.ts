@@ -17,7 +17,6 @@ export class CourseInfoComponent implements OnInit {
         next: course => this.course= course,
         error: err => console.log('Error', err)
 
-
        }) ;
       }
 
